@@ -26,7 +26,7 @@ let map = L.map('mapid', {
 });
 
 // Accessing the Toronto neighborhoods GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/mcbride249/Mapping_Earthquakes/main/torontoNeighborhoods.json";
+let torontoHoods = "https://raw.githubusercontent.com/farah86/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
